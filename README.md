@@ -25,8 +25,7 @@ App Android que convierte texto escrito en audio hablado, con selección de voz.
 
 ## Notas conocidas
 - **Voces con nombres ilegibles** (ej. `en-au-x-aua-local`): ocurre cuando el dispositivo usa el motor de respaldo de Android en vez de Google TTS. Solución: cambiar el motor predeterminado en el dispositivo, o forzarlo en código con `TextToSpeech(context, listener, "com.google.android.tts")`.
-- **Error de build `getPrivacySandboxSdkInfo()`**: desfase entre la versión de Android Studio y el AGP/Gradle del proyecto. Generalmente se puede ignorar (no bloquea el build) o resolverse actualizando `gradle-wrapper.properties`.
 
-## Pendiente / mejoras posibles
+## Pendiente / mejoras posibles que no se pudieron lograr por limitaciones de tiempo
 - Forzar motor de Google TTS por defecto para evitar dependencia de configuración del usuario.
 - Mostrar `voz.locale.displayName` en vez de `voz.name` para nombres más legibles.
