@@ -29,3 +29,7 @@ App Android que convierte texto escrito en audio hablado, con selección de voz.
 ## Pendiente / mejoras posibles que no se pudieron lograr por limitaciones de tiempo
 - Forzar motor de Google TTS por defecto para evitar dependencia de configuración del usuario.
 - Mostrar `voz.locale.displayName` en vez de `voz.name` para nombres más legibles.
+
+## Desarrolladores
+- Anie Luo 8-1016-414
+- Gabriela Takata 8-991-822
